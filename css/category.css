@@ -1,0 +1,72 @@
+* {
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+  -webkit-tap-highlight-color: transparent;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: #f8f8f8;
+  min-height: 100vh;
+  padding: 20px;
+}
+
+.container {
+  height: auto;
+}
+.container h1 {
+  font-size: 50px;
+  color: #accd57;
+  border-bottom: 2px solid black;
+}
+.container .category {
+  display: grid;
+  justify-items: center;
+  gap: 20px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+}
+.container .category a {
+  width: max-content;
+  text-decoration: none;
+  display: inline-flex;
+  flex-direction: column;
+  align-items: center;
+}
+.container .category img {
+  padding-top: 3px;
+  border-top: 3px solid black;
+  object-fit: fill;
+  object-position: center;
+  display: inline-block;
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+}
+.container .category span {
+  color: black;
+}
+.container .shop-now {
+  height: auto;
+  display: flex;
+  justify-content: flex-end;
+}
+.container .shop-now a {
+  display: flex;
+  align-items: center;
+  color: #accd57;
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 3px solid #accd57;
+  transition: all 300ms ease-in 50ms;
+}
+.container .shop-now a img {
+  margin-top: 3px;
+  display: inline-block;
+  height: 20px;
+  opacity: 0.3;
+}
+.container .shop-now a:hover {
+  color: #fdfdfd;
+  background: #accd57;
+}/*# sourceMappingURL=category.css.map */
