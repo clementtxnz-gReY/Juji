@@ -64,7 +64,7 @@ body {
   display: flex;
   align-items: center;
   padding-left: 40px;
-  background: url(images/profile-cover.png);
+  background: url(/images/profile-cover.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
